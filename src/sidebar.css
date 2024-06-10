@@ -1,0 +1,106 @@
+.sidebar{
+    width: 18%;
+}
+
+
+.sidebar_btn > button{
+    border: none;
+    background: transparent;
+    padding: 0px 20px;
+    cursor: pointer;
+  
+}
+button > img{
+     width: 150px;
+     height: 80px;
+}
+
+.sidebar_option{
+    padding: 15px 40px;
+    display: flex;
+    font-size: 15px;
+    gap : 15px;
+    margin-top: 10px;
+    align-items: center;
+
+}
+.sidebar_option > svg{
+    font-size: 20px;
+}
+.Sidebar_optiona {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  
+  
+}
+.Sidebar_optiona svg{
+    font-size: 40px;
+}
+
+.progress_bar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 15px;
+}
+.sidebar_option-active{
+    background-color: rgb(226, 239, 246);
+    color:rgb(86, 148, 230);
+    border-radius: 15px;
+    font-weight: bold;
+    
+
+}
+
+.sidebar_option-active > span{
+    background-color: rgb(226, 239, 246);
+    color:rgb(86, 148, 230);
+
+}
+.progress_bar{
+    color: rgb(133, 135, 137);
+    font-size: 16px;
+}
+
+.modal_pop{
+    top:50%;
+    background-color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.modalHeading{
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+input.post_submit{
+    width: 100%;
+    background-color: rgb(93, 93, 231);
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.uploading{
+     display: flex;
+     text-align: center;
+     background-color: green;
+     justify-content: center;
+     padding: 10px 10px;
+     font-weight: 500;
+     font-size: 15px;
+     color: #fff;
+}
