@@ -5,10 +5,10 @@ import { MdFormatAlignCenter } from "react-icons/md";
 import { FaRegCircleQuestion } from "react-icons/fa6";
 import { IoSettingsSharp } from "react-icons/io5";
 import { IoMdApps } from "react-icons/io";
-function Header({photoURL}) {
+import { IoMenu } from "react-icons/io5";
+function Header({ photoURL }) {
   return (
-
-   <div className="header">
+    <div className="header">
       <div className="header__logo">
         <img
           src="https://cdn.iconscout.com/icon/free/png-256/free-google-drive-2923656-2416659.png?f=webp&w=256"
@@ -18,29 +18,29 @@ function Header({photoURL}) {
       </div>
       <div className="header__search">
         <FaSearch />
-        <input type="text" placeholder="Search in Drive"/>
+        <input type="text" placeholder="Search in Drive" />
         <MdFormatAlignCenter />
       </div>
       <div className="header__icons">
         <span>
-        <FaRegCircleQuestion />
-        <IoSettingsSharp />
+          <FaRegCircleQuestion />
+          <IoSettingsSharp />
         </span>
         <span>
-        <IoMdApps />
-        <div>
-        <img className="header_img" alt="" src = {photoURL}></img>
-        </div>
-        </span>
+          <IoMdApps />
+          </span>
+           <div>
+            <img className="header_img" alt="" src={photoURL}></img>
+          </div>
+         
+        
       </div>
-    
-  
-     </div>
-     
-   
-
-
-  
+       
+      <div className="menubar">
+            <span><IoMenu/></span>
+          
+          </div>
+    </div>
   );
 }
 

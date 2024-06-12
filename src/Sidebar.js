@@ -119,7 +119,7 @@ function Sidebar() {
             <span>Storage</span>
           </div>
           <div className="progress_bar">
-            <progress size="tiny" value="50" max="100" />
+            <progress className="progressvalue" size="tiny" value="50" max="100" />
             <span>6.45 GB of 15 GB used</span>
           </div>
         </div>

@@ -18,14 +18,14 @@ function App() {
     <>
       {user ? (
         <div className="App">
-          <Header photoURL={user.photoURL}/>
+          {<Header photoURL={user.photoURL}/> }
           <div className="App1">
             <Sidebar />
             <Data />
           </div>
         </div>
       ) : (
-        <div className="loginwrap">
+         <div className="loginwrap">
           <img
             src="https://i.pcmag.com/imagery/reviews/02PHW91bUvLOs36qNbBzOiR-12..v1569471162.png"
             alt="#"
