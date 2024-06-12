@@ -1,4 +1,4 @@
-# Google Drive Clone
+# Google Drive Clone 🚀
 
 Welcome to the Google Drive Clone project! This project is a simplified version of Google Drive, featuring Firebase-based authentication, allowing you to log in using your Gmail ID. You can upload pictures, and view the upload date and time, and each picture is clickable by a link.
 
